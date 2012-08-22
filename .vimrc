@@ -1,5 +1,7 @@
 call pathogen#infect()
 
+set mouse=a
+
 set smartindent
 set tabstop=2
 set shiftwidth=2
@@ -20,3 +22,12 @@ autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
 set directory=~/.vim-temp
+
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
